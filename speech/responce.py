@@ -68,7 +68,7 @@ def record_audio():
 
         else: s = 0
 
-    # activate_sound('data/endwave.wav')
+
     stream.stop_stream()
     stream.close()
     p.terminate()
