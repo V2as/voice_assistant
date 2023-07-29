@@ -20,7 +20,7 @@ def record_and_recognize():
         lru_cache(maxsize=None)
 
     except Exception as e:
-        activate_sound('data/errorwave.wav')
+        activate_sound('speech/data/errorwave.wav')
         print(e)
 
 def open_commands(sentence):
@@ -30,7 +30,7 @@ def open_commands(sentence):
     :return: None
     '''
 
-    with open('data/abbrs.txt', 'r', encoding='utf-8') as f:
+    with open('speech/data/abbrs.txt', 'r', encoding='utf-8') as f:
         command = f.read().rstrip().replace('\n', '\t').split('\t')
 
     if sentence.split(' ')[0] == 'напиши':
@@ -72,4 +72,4 @@ def open_commands(sentence):
             webbrowser.open_new_tab(' '.join(promt.split(' ')[1:]))
 
 
-    else: activate_sound('data/errorwave.wav')
+    else: activate_sound('speech/data/errorwave.wav')
