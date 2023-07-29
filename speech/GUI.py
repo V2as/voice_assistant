@@ -8,7 +8,7 @@ class SystemTrayIcon(QtWidgets.QSystemTrayIcon):
     '''
     def __init__(self, parent=None):
         QtWidgets.QSystemTrayIcon.__init__(self, parent)
-        self.setIcon(QtGui.QIcon("data/scaled-cat.ico"))  # Путь к иконке в трее
+        self.setIcon(QtGui.QIcon("speech/data/scaled-cat.ico"))  # Путь к иконке в трее
         self.setToolTip("Cat-helper") # Подсказка при наведении на иконку
         self.menu = QtWidgets.QMenu(parent) # Создаем контекстное меню
         exit_action = self.menu.addAction("Exit:)")
