@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img src="speech/data/scaled-cat.ico"><br/>cat helper v 0.1
+</h1>
+
 # VOSK Voice Offline Windows Assistant
 
 (Временно!)Поддержка только на русском языке
