@@ -1,0 +1,43 @@
+браузер	str start microsoft-edge:
+телеграмм	pro C:\Program Files\WindowsApps\TelegramMessengerLLP.TelegramDesktop_4.8.7.0_x64__t4vj0pshhgkwm\Telegram.exe
+блокнот	str start notepad
+калькулятор	str start calc
+командная	строка	str start cmd
+командную	строку	str start cmd
+диспетчер	задач	str start taskmgr
+проводник	str start explorer
+файлы	str start explorer
+командную	строку	str start cmd
+удалённый	рабочий	стол	str start mstsc.exe
+настройки	str start ms-settings:
+параметры	str start ms-settings:
+завершение	cmd shutdown /s /t 1200
+завершения	cmd shutdown /s /t 1200
+отмену	завершения	cmd shutdown /a
+отмену	завершение	cmd shutdown /a
+отмена	завершения	cmd shutdown /a
+отмена	завершение	cmd shutdown /a
+создать	страницу	htk ctrl t
+создай	страницу	htk ctrl t
+создать	страничку	htk ctrl t
+создай	страничку	htk ctrl t
+новая	страница	htk ctrl t
+новая	страничка	htk ctrl t
+новая	вкладка	htk ctrl t
+обновить	страничку	htk ctrl r
+обновить	страницу	htk ctrl r
+обновить	вкладку	htk ctrl r
+обнови	страничку	htk ctrl r
+обнови	страницу	htk ctrl r
+обнови	вкладку	htk ctrl r
+закрыть	страницу	htk ctrl w
+закрыть	страничку	htk ctrl w
+закрыть	вкладку	htk ctrl w
+закрой	страницу	htk ctrl w
+закрой	страничку	htk ctrl w
+закрой	вкладку	htk ctrl w
+закрыть	окно	htk alt f4
+закрой	окно	htk alt f4
+вконтакте	web https://www.vk.com
+в	контакте	web https://www.vk.com
+все	задачи	htk win tab
