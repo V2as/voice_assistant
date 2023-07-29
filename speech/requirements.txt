@@ -1,0 +1,16 @@
+keyboard==0.13.5
+num2words==0.5.12
+numpy==1.23.3
+openai==0.26.4
+psutil==5.9.2
+PyAudio==0.2.13
+PyAutoGUI==0.9.54
+pyperclip==1.8.2
+PyQt5==5.15.9
+PyQt5_sip==12.11.1
+pyttsx3==2.90
+sounddevice==0.4.6
+SpeechRecognition==3.10.0
+torch==1.12.1
+vosk==0.3.45
+word2number==1.1
